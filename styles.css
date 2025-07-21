@@ -1,0 +1,45 @@
+/* Estilo para el contenido principal */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Imagen de perfil dentro de main */
+main img {
+  width: 150px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo para el aside */
+aside {
+  width: 600px;
+  margin: 20px auto;
+  border: 2px solid #333;
+  padding: 16px;
+  background-color: #f1f1f1;
+  color: #222;
+}
+
+/* Imagen dentro del aside */
+aside img {
+  width: 200px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* sombra suave */
+  border-radius: 8px; /* esquinas redondeadas */
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Todos los párrafos */
+p {
+  padding: 0;
+}
+
+/* Pie de página */
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #444;
+  text-align: center;
+}
