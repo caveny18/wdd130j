@@ -1,15 +1,22 @@
-/* Estilo para el contenido principal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 main {
   max-width: 600px;
   margin: 0 auto;
 }
 
-/* Imagen de perfil dentro de main */
 main img {
   width: 150px;
   height: auto;
+  float: right;
+  margin: 1rem;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Estilo para el aside */
 aside {
@@ -30,6 +37,19 @@ aside img {
   display: block;
   margin: 0 auto;
 }
+aside {
+  position: relative; /* Agregado para superposición */
+}
+
+aside h2 {
+  position: absolute;
+  top: 40px;  /* Puedes ajustar este valor */
+  left: 120px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  border-radius: 4px;
+}
 
 
 /* Todos los párrafos */
@@ -42,4 +62,13 @@ footer {
   margin-top: 20px;
   border-top: 2px solid #444;
   text-align: center;
+}
+/* ---- Selectores de clase ---- */
+
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid #338479;
+  background-color: #D2E4B4;
+  color: #0A2239;
 }
